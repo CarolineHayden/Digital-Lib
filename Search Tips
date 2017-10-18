@@ -1,0 +1,16 @@
+html linking to bookmark from another page:
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+<a href-"search_help.html#keyword">Keyword Search</a>
+bookmark id attribute:
+<h2 id="keyword">Keyword Search</h2>
+Example search tip formatting:
+<body>
+<h2 id="keyword">Keyword Search</h2>
+<p>
+Use subject terms, phrases, and numbers in the keyword field to bring up all results with the searched-for term in the record. Words must match what is entered in the record, but punctuation is not necessary in this field.
+</p>
+<h2 id="title">Title Search</h2>
+<p>
+Like the keyword search, words must be spelled as they are entered in the record. Correct punctuation is also important when searching in the title field. You do not need to have the full title, however; partial titles will work.
+</p>
+</body>
