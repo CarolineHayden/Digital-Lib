@@ -13,4 +13,15 @@ Use subject terms, phrases, and numbers in the keyword field to bring up all res
 <p>
 Like the keyword search, words must be spelled as they are entered in the record. Correct punctuation is also important when searching in the title field. You do not need to have the full title, however; partial titles will work.
 </p>
+<h2 id="date">Date Search</h2>
+<p>
+Search results for this field will include any record with part or all of the date searched. Enter the year last when searching dates, such as <i>16 may 1800</i>, <i>may 16 1800</i>, or <i>may 1800</i>.
+</p>
+<h2 id="truncation">Truncated Searching</h2>
+<p>
+Adding an asterisk (*) after a letter or combination of letters will bring back results with words beginning with that letter or combination, when used in the Keyword, Title, and Collection fields. This truncated search method may help broaden your search results if you are not finding a desired object record or are looking for various spellings. Wildcards, or symbols replacing characters within search terms, do not work in Advanced Search. Truncated searching with an asterisk is recommended instead for finding various spellings.<br>
+<i>Ex. Searching pos* will bring back results with words in the record beginning with “pos,” such as “poster” or “possibly.”</i><br>
+<i>Ex. Searching wom* will bring back results for records with "women," "women's," "woman," etc. </i><br> 
+You may also use an asterisk with a number in the Title field; this will not work in the Collection field. Using truncated searching for numbers in the Keyword field, while possible, is not recommended as it will not help refine search results.
+</p>
 </body>
