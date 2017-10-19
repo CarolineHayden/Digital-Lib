@@ -4,6 +4,10 @@ html linking to bookmark from another page:
 bookmark id attribute:
 <h2 id="keyword">Keyword Search</h2>
 Example search tip formatting:
+<!DOCTYPE html>
+<head>
+<title>Advanced Search Help</title>
+</head>
 <body>
 <h2 id="keyword">Keyword Search</h2>
 <p>
