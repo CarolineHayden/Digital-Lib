@@ -5,6 +5,7 @@ bookmark id attribute:
 <h2 id="keyword">Keyword Search</h2>
 Example search tip formatting:
 <!DOCTYPE html>
+<html>
 <head>
 <title>Advanced Search Help</title>
 </head>
@@ -29,3 +30,4 @@ Adding an asterisk (*) after a letter or combination of letters will bring back 
 You may also use an asterisk with a number in the Title field; this will not work in the Collection field. Using truncated searching for numbers in the Keyword field, while possible, is not recommended as it will not help refine search results.
 </p>
 </body>
+</html>
