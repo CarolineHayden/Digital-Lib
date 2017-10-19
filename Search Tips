@@ -1,6 +1,6 @@
 html linking to bookmark from another page:
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
-<a href-"search_help.html#keyword">Keyword Search</a>
+<a href="search_help.html#keyword">Keyword Search</a>
 bookmark id attribute:
 <h2 id="keyword">Keyword Search</h2>
 Example search tip formatting:
@@ -31,3 +31,45 @@ You may also use an asterisk with a number in the Title field; this will not wor
 </p>
 </body>
 </html>
+
+Linking to search tips from advanced search page:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search Examples</title>
+</head>
+<body>
+<h4>Keyword Field</h4>
+<ul>
+<li><i>women's rights</i></li>
+<li><i>Mary Greenewalt</i></li>
+<li><i>broad street theater</i></li>
+<li><i>1800s</i></li>
+</ul>
+<a href="search_help.html#keyword">More keyword search help</a>
+<h4>Title Field</h4>
+<ul>
+<li><i>Village of Little Falls, 1800s</i></li>
+<li><i>William Parker letter to Isaac T. Hopper and Absalom Jones</i></li>
+</ul>
+<a href="search_help.html#title">More title search help</a>
+<h4>Date Range Field</h4>
+<ul>
+<li><i>1750-1800</i></li>
+<li><i>May 18 1960</i></li>
+<li><i>20 june 1901</i></li>
+<li><i>1864</i></li>
+<li><i>may 1860 - may 1870</i></li>
+</ul>
+<a href="search_help.html#date">More date search help</a>
+<h4>Collection Field</h4>
+<ul>
+<li><i>mary greenewalt</i></li>
+<li><i>George A. Foreman Philadelphia Transportation Company</i></li>
+<li><i>Ambrotype</i></li>
+</ul>
+<a href="search_help.html#truncation">Find more advanced search tips</a>
+</body>
+</html>
+
+
