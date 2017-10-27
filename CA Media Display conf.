@@ -10,7 +10,7 @@ media_overlay = {
 		viewer = TileViewer,
 		#use_universal_viewer_for_image_list_length_at_least = 3
 		use_mirador_for_image_list_length_at_least = 3
-	},
+	}, *viewer = TileViewer looks like it might conflict, but not sure. Could this affect our Mirador functionality? 
 	video = {
 		mimetypes = {video/x-flv, video/mpeg, video/quicktime, video/x-ms-asf, video/x-ms-wmv, application/x-shockwave-flash, video/x-matroska, video/avi, video/x-dv},
 		display_version = h264_hi,
